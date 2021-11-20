@@ -1,0 +1,79 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+    display: grid;
+    background-color: cornsilk;
+}
+
+.container{
+    font-family: 'Architects Daughter', cursive;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: solid 5px black;
+    color: gray;
+    background-color: honeydew;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    display: grid;
+    min-height: 120vh;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: auto 100px 50px 350px 50px auto;
+}
+
+.squares{
+    height: 100px;
+    width: 100px;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.squares:hover{
+    background-color: gray;
+    border-radius: 50px ;
+}
+
+.tl{
+    border-right: black 3px solid;
+    border-bottom:  black 3px solid;
+}
+.tm{
+    border-right: black 3px solid;
+    border-bottom:  black 3px solid;
+}
+.tr{
+    border-bottom:  black 3px solid;
+}
+.lm{
+    border-right: black 3px solid;
+    border-bottom:  black 3px solid;
+}
+.mm{
+    border-right: black 3px solid;
+    border-bottom:  black 3px solid;
+}
+.mr{
+    border-bottom:  black 3px solid;
+}
+.bl{
+    border-right: black 3px solid;
+}
+.bm{
+    border-right: black 3px solid;
+}
+
+#message{
+    margin-top: 100vh;
+}
